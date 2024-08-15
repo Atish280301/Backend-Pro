@@ -1,0 +1,10 @@
+REST
+
+CREATE -> POST -> Data in Request Body => /students
+
+READ -> GET -> Find data in URL params => /students/:id
+        -> GET -> No Data => /students
+
+UPDATE -> PUT -> Find data in URL params Update Data in req body => /students/:id
+
+DELETE -> DELETE -> Find data in URL params => /students/:id 
